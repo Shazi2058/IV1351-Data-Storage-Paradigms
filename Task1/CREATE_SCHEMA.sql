@@ -1,6 +1,6 @@
 SET search_path TO public;
 
--- Clear before creating the tables in case there is any scratch data and to prevent bugs and errors
+-- Clear before creating the tables in case there is any scratch data and to prevent bugs and errors.
 DROP TABLE IF EXISTS teaching_allocation CASCADE;
 DROP TABLE IF EXISTS planned_activity CASCADE;
 DROP TABLE IF EXISTS course_instance CASCADE;
