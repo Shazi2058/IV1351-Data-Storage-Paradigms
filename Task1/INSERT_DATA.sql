@@ -1,6 +1,6 @@
 SET search_path TO public;
 
--- Abbasi
+-- Abbasi.
 INSERT INTO activity_type (activity_name, multiplication_factor) VALUES
  ('Lecture',        3.6),
  ('Lab',            2.4),
