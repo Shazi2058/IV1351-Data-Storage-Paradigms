@@ -89,7 +89,7 @@ INSERT INTO salary_history (employee_id, effective_date, salary) VALUES
  (16, '2020-04-02',  80000);
 
 -- Husein
--- IV1351 has two layout versions (9 hp, then 7.5 hp)
+-- IV1351 has two layout versions (9 hp and 7.5 hp)
 INSERT INTO course_layout (course_code, effective_date, course_name, hp, min_students, max_students) VALUES
  ('IV1351', '2026-01-01', 'datalagring',                                     9.0,  67,  92),
  ('IV1351', '2026-04-01', 'datalagring',                                     7.5,  67, 300),
